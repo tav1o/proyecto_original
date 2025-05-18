@@ -44,9 +44,11 @@ class inicio extends StatelessWidget {
       
       body: Container(
         decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/fondo.jpg"),
-          )
+          gradient: LinearGradient(
+            colors: [Colors.blueGrey[700]!, Colors.grey],
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+          ),
         ),
       ),
     );
