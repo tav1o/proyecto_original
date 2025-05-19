@@ -41,13 +41,23 @@ class inicio extends StatelessWidget {
           ),
        ],
     ),
-      
+
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [Colors.blueGrey[700]!, Colors.grey],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
+          ),
+        ),
+        child: Center(
+          child: Text(
+            "Bienvenido al Mundo del Futbol",
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 24,
+              shadows: [Shadow(blurRadius: 10, color: Colors.black)],
+            ),
           ),
         ),
       ),
